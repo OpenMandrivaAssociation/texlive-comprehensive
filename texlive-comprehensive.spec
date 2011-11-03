@@ -1,3 +1,9 @@
+# revision 16006
+# category Package
+# catalog-ctan /info/symbols/comprehensive
+# catalog-date 2009-11-18 09:39:01 +0100
+# catalog-license lppl
+# catalog-version 11.0
 Name:		texlive-comprehensive
 Version:	11.0
 Release:	1
@@ -37,6 +43,7 @@ make the document a convenient way of looking up symbols.
 %doc %{_texmfdistdir}/doc/latex/comprehensive/source/versicle.eps
 %doc %{_texmfdistdir}/doc/latex/comprehensive/symbols-a4.pdf
 %doc %{_texmfdistdir}/doc/latex/comprehensive/symbols-letter.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -47,3 +54,5 @@ make the document a convenient way of looking up symbols.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
