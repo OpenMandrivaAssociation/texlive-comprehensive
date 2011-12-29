@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/comprehensive.doc
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 Around 5000 symbols are listed as a set of tables. The tables
@@ -43,7 +41,6 @@ make the document a convenient way of looking up symbols.
 %doc %{_texmfdistdir}/doc/latex/comprehensive/source/versicle.eps
 %doc %{_texmfdistdir}/doc/latex/comprehensive/symbols-a4.pdf
 %doc %{_texmfdistdir}/doc/latex/comprehensive/symbols-letter.pdf
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,5 +51,3 @@ make the document a convenient way of looking up symbols.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
