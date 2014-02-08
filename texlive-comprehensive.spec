@@ -6,7 +6,7 @@
 # catalog-version 11.0
 Name:		texlive-comprehensive
 Version:	11.0
-Release:	3
+Release:	4
 Summary:	Symbols accessible from LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/symbols/comprehensive
