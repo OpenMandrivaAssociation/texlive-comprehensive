@@ -1,12 +1,6 @@
-# revision 25501
-# category Package
-# catalog-ctan /info/symbols/comprehensive
-# catalog-date 2009-11-18 09:39:01 +0100
-# catalog-license lppl
-# catalog-version 11.0
 Name:		texlive-comprehensive
-Version:	11.0
-Release:	11
+Version:	12.3
+Release:	1
 Summary:	Symbols accessible from LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/symbols/comprehensive
@@ -25,22 +19,7 @@ make the document a convenient way of looking up symbols.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/latex/comprehensive/README
-%doc %{_texmfdistdir}/doc/latex/comprehensive/SYMLIST
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/Makefile
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/lightbulb.eps
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/lightbulb.map
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/lightbulb.mf
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/lightbulb10.mf
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/lightbulb10.pfb
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/makefakeMnSymbol
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/response.eps
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/symbols.ist
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/symbols.tex
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/teubner-subset.sty
-%doc %{_texmfdistdir}/doc/latex/comprehensive/source/versicle.eps
-%doc %{_texmfdistdir}/doc/latex/comprehensive/symbols-a4.pdf
-%doc %{_texmfdistdir}/doc/latex/comprehensive/symbols-letter.pdf
+%doc %{_texmfdistdir}/doc/latex/comprehensive
 
 #-----------------------------------------------------------------------
 %prep
