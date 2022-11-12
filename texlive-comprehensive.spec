@@ -1,12 +1,12 @@
 Name:		texlive-comprehensive
-Version:	12.3
-Release:	2
+Version:	59099
+Release:	1
 Summary:	Symbols accessible from LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/symbols/comprehensive
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/comprehensive.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/comprehensive.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/comprehensive.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/comprehensive.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,7 +23,7 @@ make the document a convenient way of looking up symbols.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
