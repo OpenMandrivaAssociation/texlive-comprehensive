@@ -1,6 +1,6 @@
 Name:		texlive-comprehensive
-Version:	59099
-Release:	2
+Version:	69282
+Release:	1
 Summary:	Symbols accessible from LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/symbols/comprehensive
