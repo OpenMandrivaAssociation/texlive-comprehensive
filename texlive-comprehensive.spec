@@ -1,5 +1,5 @@
 Name:		texlive-comprehensive
-Version:	69282
+Version:	69619
 Release:	1
 Summary:	Symbols accessible from LaTeX
 Group:		Publishing
