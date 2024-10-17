@@ -3,7 +3,7 @@ Version:	69619
 Release:	1
 Summary:	Symbols accessible from LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/symbols/comprehensive
+URL:		https://www.ctan.org/tex-archive/info/symbols/comprehensive
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/comprehensive.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/comprehensive.doc.r%{version}.tar.xz
